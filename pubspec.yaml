@@ -1,0 +1,29 @@
+name: hk_ipsw_manager
+description: "HK IPSW Manager — Apple firmware catalog, downloader and repository manager. Made by Hisham Khateeb for the Community."
+publish_to: 'none'
+version: 0.3.0+3
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  crypto: ^3.0.7
+  file_selector: ^1.1.0
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^3.4.3
+  hive_ce: ^2.20.1
+  http: ^1.6.0
+  path: ^1.9.1
+  path_provider: ^2.1.6
+  url_launcher: ^6.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/branding/
